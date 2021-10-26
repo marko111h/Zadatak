@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  
+
+}
+
+.pre-header{
+    background-color: black;
+    height: 50px;
+    color: #646165;
+    padding-top: 50px;
+    
+}
+
+.main-menu {
+    list-style: none;
+    
+}
+.main-menu li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    
+    
+}
+
+
+
+.main-menu li a {
+    color: #787374;
+    text-decoration: none;
+    position: relative;
+  
+
+}
+
+
+.main-menu li  a::after{
+    content: "";
+    position: absolute;
+    background-color: #FF3326;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+.main-menu li a:hover{
+    color: white;
+}
+.main-menu li a:hover::after{
+    width: 100%;
+}
+
+.main-menu .contact-btn a {
+    padding: 20px;
+    color: white;
+    background-color: #787374;
+    border: 1px solid #787374;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+.main-menu .contact-btn a:hover {
+    background-color: #FF3326;
+    text-decoration: none;
+
+}
+.main-menu .sub-menu{
+    position: absolute;
+    top: 35px;
+    left: -50px;
+    display: none;
+    
+
+}
+.main-menu li:hover > .sub-menu{
+    display: block;
+}
+.main-menu .sub-menu li{
+    width:150px;
+    float: none;
+    left: 0;
+    bottom: 0;
+    position: relative;
+
+}
+
+
+.hero-section {
+    background-image: url('../Assets/Images/header-img-1440.jpg');
+    padding-top: 300px;
+    padding-bottom: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.hero-section h1 {
+    font-size: 50px;
+    color: white;
+}
+.hero-section .red {
+    color:red;
+    letter-spacing: 4px;
+    font-size: 11px;
+    font-family: "Shapes Found";
+    font-size-adjust: 0.58;
+}
+.hero-section p{
+    font-family: "Shapes Found";
+    color: #6E6B6B;
+}
+.hero-section .edit-text{
+    margin-top: 30px;
+    margin-left: 60px;
+    border-left: 1px solid red;
+   
+    padding-left: 36px;
+    
+
+}
+.hero-section img{
+   display: block;
+    position: relative;
+    top: -300px;
+    left: 0%;
+}
+
+.hero-section-again {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    
+    height: 100%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+.hero-section-again img {
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+    z-index: 2;
+
+}
+.hero-section-again .grey-background{
+    position: relative;
+
+    
+    padding-top: 500px;
+    margin-left: 160px;
+    background-color: gray;
+    width: 300px;
+    z-index: 1;
+    font-family: "Sinkin Sans 400 Italic";
+    text-align: center;
+    
+}
+.hero-section-again h5{
+    font-family: "Eau Sans BookYOFontsFont";
+}
+
+
+.hero-section-again .redred{
+    color: red;
+    letter-spacing: 4px;
+    font-size: 11px;
+}
+.hero-section-again .newColor {
+    color: #a4a4a4;
+}
+.new-brand{
+    
+    background-image: url('../Assets/Images/section-banner-1920.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    
+
+}
+.new-brand h1 {
+    color: white;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 20px;
+    color:white;
+
+}
+.flexcontainer div {
+    width: 200px;
+    height: 180px;
+    margin: 5px;
+    border: 1px solid rgb(131, 131, 126);
+    text-align: center;
+    padding-top: 20px;
+}
+.offer {
+    height: 50px;
+    margin-bottom: 700px;
+}
+.offer .cars{
+    text-align: center;
+ 
+}
+.offer h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+.offer li {
+    display: inline-block;
+    
+    list-style: none;
+    margin-left: 30px;
+   
+    font-size: 21px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+
+}
+.offer .cars a{
+    text-decoration: none;
+    color: #a6aebd;
+    position: relative;
+    
+
+}
+.offer .cars li  a::after{
+    content: "";
+    position: absolute;
+    background-color: #FF3326;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+.offer .cars li a:hover{
+    color: black;
+}
+.offer .cars li a:hover::after{
+    width: 100%;
+}
+.offer .flexdiv {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.flexdiv div{
+    position: relative;
+    height: 400px;
+    width: 250px;
+    border: 1px solid rgb(167, 172, 169);
+   margin: 20px;
+   margin-left: 40px;
+}
+.offer .flexdiv img {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+.offer .flexdiv .center {
+    text-align: center;
+}
+.offer .flexdiv .audiCenter {
+    text-align: center;
+}
+.offer .flexdiv .conCenter {
+    text-align: center;
+}
+.offer .flexdiv .fixing {
+    margin-top: -10px;
+   margin-bottom: -25px;
+   margin-left: -10px;
+   font-size: 11px;
+}
+.offer .flexdiv .fixing img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.offer .flexdiv .w1{
+       
+    
+}
+.offer .flexdiv .new {
+    position: absolute;
+    border: 1px solid purple;
+    border-radius: 3px 3px 3px 3px;
+    background-color: purple;
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 35px;
+    height: 20px;
+    text-align: center;
+
+}
+.offer .flexdiv button {
+    border-radius: 25px 25px 25px 25px;
+    font-size: 12px;
+    padding: 5px;
+    color: #ff5555;
+    background-color: #fed6d6;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    
+}
+.offer .flexdiv .conCenter{
+    color: blue;
+    font-size: 11px;
+}
+.offer .flexdiv .audiCenter {
+    font-size: 20px;
+}
+.offer .flexdiv .center {
+    font-size: 14px;
+    color: #cad6f0;
+}
+.offer .flexdiv .w2{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.footer {
+    height: 800px;
+    padding-bottom: 200px;
+    
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border: 1px solid rgb(37, 36, 36);
+    margin-left: 300px;
+    margin-right: 300px;
+    background-image: url(../Assets/photo-1603346133929-24265debae88.jpg);
+}
+.footer h1{
+    position: absolute;
+    z-index: 5;
+    left: 200px;
+    top: 100px;
+    color: white;
+}
+.footer .red-red{
+    position: absolute;
+    z-index: 5;
+    left: 200px;
+    top: 70px;
+    color: red;
+    letter-spacing: 5px;
+    font-size-adjust: 0.58;
+    font-size: 11px;
+}
+.footer img {
+    position: absolute;
+    width: 80%;
+
+    top: 200px;
+    left: -90px;
+    z-index: 4;
+    
+}
+.footer form {
+   
+    position: absolute;
+    z-index: -1;
+    margin: 50px;
+    background-color: rgba(1,31,5);
+    padding: 50px;
+    box-shadow: 0 2px 10px #011f05;
+    right: 0;
+    top: 30px;
+    
+}
+.footer form input, .footer form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    border: 2px solid #2b442f;
+    background-color:  #26402a;
+
+}
+.footer form textarea{
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+} 
+.footer form input{
+    height: 50px;
+}
+.footer form button{
+    
+    color: #a9b3aa;
+    background-color: #011f05;
+    
+    border: 2px solid #485e4b;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer .pRight{
+    position: absolute;
+    bottom: 0;
+    color:  #a9b3aa;
+    right: 10px;
+
+
+}
+.footer .pLeft{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: #a9b3aa;
+    
+}
